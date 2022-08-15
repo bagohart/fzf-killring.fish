@@ -27,11 +27,11 @@ bind \e\ck _fzf_select_from_killring
 ```
 
 Use `fish_key_reader` and press a key to find out the corresponding code.\
-Use `bind <code>` to discover if it's already bound to something else.\
+Use `bind <code>` to discover if it's already bound to something else.
 
 For more information, read the [docs](https://fishshell.com/docs/current/cmds/bind.html).
 
-## Using it together with [fzf.fish](https://github.com/PatrickF1/fzf.fish)
+## Using this plugin together with [fzf.fish](https://github.com/PatrickF1/fzf.fish)
 `fzf.fish` is a great plugin.
 Its author [isn't interested in adding this feature to it](https://github.com/PatrickF1/fzf.fish/discussions/248#discussioncomment-3122632) though, so I decided to publish this as a standalone plugin.\
-There should be no problem in using both plugins. If there ever is a conflict, please file a bug report!
+There should be no problem in using both plugins (I do!). If there ever is a conflict, please file a bug report!
