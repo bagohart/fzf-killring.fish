@@ -1,4 +1,4 @@
-function fzf_select_from_killring --description "Select items from the killring and insert them into the current commandline."
+function _fzf_select_from_killring --description "Select items from the killring and insert them into the current commandline."
     set killring_items $(
         string split0 -- $fish_killring | \
         string trim | \
