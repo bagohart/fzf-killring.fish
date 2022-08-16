@@ -8,6 +8,10 @@ It's very simple to use if it has only a few short, non-overlapping entries – 
 For those cases, this plugin is useful.
 Use your favoured binding to invoke fzf in multi-mode and choose one or more entries from the killring, which will be inserted at the current cursor position in the selected order, and separated by whitespace.
 
+## Configuration
+This plugin uses fzf with the `--multi` switch. No other fzf settings are configured, just define them in [`FZF_DEFAULT_OPTS`](https://github.com/junegunn/fzf#environment-variables) or (if specific for this plugin) by setting `$fzf_killring_opts`.\
+Note that `$fzf_killring_opts` is appended last, so it overwrites earlier settings from `FZF_DEFAULT_OPTS`, and you can even overwrite the `--multi` switch.
+
 ## Requirements
 Needs fzf and fish `v.3.3` or newer because it uses [the new `$fish_killring` variable](https://fishshell.com/docs/current/language.html?highlight=killring#envvar-fish_killring).
 
